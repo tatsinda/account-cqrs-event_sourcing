@@ -1,4 +1,4 @@
-package com.demo.demoproductTest.commandApi.events;
+package com.demo.AccountAxon.commandApi.events;
 
 import lombok.Getter;
 

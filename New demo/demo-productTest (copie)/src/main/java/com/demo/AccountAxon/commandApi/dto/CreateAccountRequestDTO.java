@@ -1,4 +1,4 @@
-package com.demo.demoproductTest.commandApi.dto;
+package com.demo.AccountAxon.commandApi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

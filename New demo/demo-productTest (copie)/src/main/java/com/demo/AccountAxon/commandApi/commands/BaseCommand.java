@@ -1,4 +1,4 @@
-package com.demo.demoproductTest.commandApi.commands;
+package com.demo.AccountAxon.commandApi.commands;
 
 import lombok.Getter;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;

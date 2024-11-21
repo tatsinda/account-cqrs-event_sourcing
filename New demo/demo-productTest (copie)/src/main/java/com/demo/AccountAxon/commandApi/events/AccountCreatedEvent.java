@@ -1,6 +1,6 @@
-package com.demo.demoproductTest.commandApi.events;
+package com.demo.AccountAxon.commandApi.events;
 
-import com.demo.demoproductTest.commandApi.enums.AccountStatus;
+import com.demo.AccountAxon.commandApi.enums.AccountStatus;
 import lombok.Getter;
 
 //l'evenement est nomme au passe. cet evenement est pour la creation d'un compte

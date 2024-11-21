@@ -1,4 +1,4 @@
-package com.demo.demoproductTest.commandApi.enums;
+package com.demo.AccountAxon.commandApi.enums;
 
 public enum AccountStatus {
 
