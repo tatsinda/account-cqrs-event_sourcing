@@ -9,6 +9,8 @@ import com.demo.AccountAxon.commandApi.events.AccountCreatedEvent;
 import com.demo.AccountAxon.commandApi.events.AccountCreditedEvent;
 import com.demo.AccountAxon.commandApi.events.AccountDebitedEvent;
 import com.demo.AccountAxon.commandApi.exception.NegativeInitialBalanceException;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.NoArgsConstructor;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
@@ -19,9 +21,11 @@ import org.axonframework.spring.stereotype.Aggregate;
 //il va resumer l'etat actuel de notre application et nous permettre de prendre des decisions
 @Aggregate
 @NoArgsConstructor //exiger par Axon
+//@Entity//pour rendre l'aggrega persistant via jpa
 public class AccountAggregate {
 
     @AggregateIdentifier
+    @Id//pour rendre l'aggrega persistant via jpa
     private String accountId;
     private String currency;//si on veut changer la devise
     private double balance; //si on veut changer le solde

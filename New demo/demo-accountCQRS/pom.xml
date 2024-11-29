@@ -63,13 +63,13 @@
 			<groupId>org.axonframework</groupId>
 			<artifactId>axon-spring-boot-starter</artifactId>
 			<version>4.9.3</version>
-			<exclusions>
-				<exclusion>
-					<!-- declare the exclusion here -->
+			<!--  <exclusions>
+               <exclusion>
+
 					<groupId>org.axonframework</groupId>
 					<artifactId>axon-server-connector</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions>  -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
